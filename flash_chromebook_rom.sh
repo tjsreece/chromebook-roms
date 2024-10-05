@@ -3,7 +3,7 @@
 # Script to flash custom firmware to Intel chipset based Chromebooks
 #
 
-readonly URL_PREFIX=https://web.archive.org/web/20230321184549/https://johnlewis.ie/Chromebook-ROMs/
+readonly URL_PREFIX=https://raw.githubusercontent.com/tjsreece/chromebook-roms/refs/heads/main/
 readonly MAINTENANCE=no
 declare FLASHROM_CMD MODEL AREA R_OR_W LEGACY_FILE
 readonly OPTION_1="
